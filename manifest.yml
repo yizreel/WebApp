@@ -1,0 +1,6 @@
+---
+applications:
+- buildpack: https://github.com/cloudfoundry/staticfile-buildpack
+  host: webapp-bluemix-test
+  name: webapp-bluemix
+  memory: 64M
